@@ -1,9 +1,9 @@
 #include "Header.h"
-
-int main()
+void nhap(int a[], int n)
 {
-	int a[MAX];
-	nhap(a, 10);
-
-	return 0;
+	for (int i = 0; i < n; i++)
+	{
+		cout << "Nhap a[" << i << "]: ";
+		cin >> a[i];
+	}
 }
